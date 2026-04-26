@@ -14,6 +14,7 @@ int main () {
         return 1;
     }
 
+
     sockaddr_in serverAddress;
 
     memset(&serverAddress, 0, sizeof(serverAddress));
