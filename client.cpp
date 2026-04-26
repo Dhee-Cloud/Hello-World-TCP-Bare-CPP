@@ -24,7 +24,7 @@ int main() {
 	// set server address family and port, set server IP to connect to
 	serverAddress.sin_family = AF_INET;
 	serverAddress.sin_port = htons(8080);
-	string serverIp = "127.0.0.1";
+	string serverIp = "192.168.20.125";
 
     
 	// convert IP string to binary address
